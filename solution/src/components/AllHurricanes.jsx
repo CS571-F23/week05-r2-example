@@ -8,7 +8,7 @@ export default function AllHurricanes() {
     const [activePage, setActivePage] = useState(1);
 
     useEffect(() => {
-        fetch("http://localhost:39999/week05", {
+        fetch("https://cs571.org/api/f23/weekly/week05", {
             headers: {
                 "X-CS571-ID": CS571.getBadgerId()
             }
